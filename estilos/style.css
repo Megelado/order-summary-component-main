@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: hsl(225, 100%, 94%);
+}
+
+
+.card {
+    border-radius: 25px 25px 20px 20px;
+    background-color: white;
+    width: 375px;
+    height: 500px;
+    margin: auto;
+}
+
+#hero {
+    border-radius: 21px 21px 0px 0px;
+    width: 375px;
+}
+
+.payment {
+    background-color: hsla(225, 100%, 94%, 0.475);
+}
