@@ -6,6 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="estilos/style.css">
+  <link rel="stylesheet" href="/estilos/media.css">
   <title>Frontend Mentor | Order summary card</title>
 
 </head>
@@ -21,12 +22,15 @@
       </p>
       <div class="payment">
         <img src="images/icon-music.svg" alt="">
-        <h3>Annual Plan</h3>
-        $59.99/year
-        <a href="#">Change</a>
+        <div>
+          <strong>Annual Plan</strong>
+          $59.99/year
+        </div>
+        <a id="mudar" href="#">Change</a>
       </div>
-      <a href="#">Proceed to Payment</a>
-      <button>Cancel Order</button>
+      <button type="submit" id="pagar" href="#">Proceed to Payment</button>
+      <br>
+      <a id="cancel" href="#">Cancel Order</a>
     </div>
   </main>
   

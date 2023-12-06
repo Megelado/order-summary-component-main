@@ -1,0 +1,9 @@
+
+@media screen and (min-width: 700px) {
+    main {
+        background-image: url('../images/pattern-background-desktop.svg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: hsl(225, 100%, 94%);
+    }
+}
