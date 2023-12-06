@@ -85,8 +85,17 @@ p {
     box-shadow: 1px 20px 20px hsl(225, 100%, 98%);
 }
 
+#pagar:active {
+    background-color: hsla(245, 75%, 52%, 0.513);
+}
+
 #mudar {
     color: hsl(245, 75%, 52%);
+}
+
+#mudar:active {
+    text-decoration: none;
+    color: hsla(245, 75%, 52%, 0.567);
 }
 
 #cancel {
@@ -94,4 +103,8 @@ p {
     text-decoration: none;
     font-weight: 700;
     font-size: 0.9em;
+}
+
+#cancel:active {
+    color: hsl(223, 47%, 23%);
 }
